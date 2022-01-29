@@ -11,7 +11,6 @@ struct ProgressBarView: View {
     
     @Binding var progress: Float
         
-    var angles: [Angle] = [.degrees(90),.degrees(270),.degrees(360)]
     
     var body: some View {
         ZStack {
